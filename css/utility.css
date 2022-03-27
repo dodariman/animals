@@ -1,0 +1,98 @@
+/* 클리어 픽스 */
+.clear-fix::after {
+  content:  "";
+  display: block;
+  clear: both;
+}
+
+/* 숨김처리 */
+.blind {
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+}
+
+/* 가변 이미지 */
+.img-container img {
+  max-width: 100%;
+}
+
+/* 줄간격 */
+.lh {line-height: 1.7 !important;}
+
+/* bold */
+.bold {font-weight: bold;}
+
+/* font-color */
+.tc1 {color: #000 !important;}
+.tc2 {color: #444 !important;}
+.tc3 {color: #fff !important;}
+.tc4 {color: #f36f20 !important;}
+.tc5 {color : #7eae8a !important}
+.tc6 {color : #093a88 !important}
+
+/* bg-color */
+.bgc1 {background-color: #fff !important;}
+.bgc2 {background-color: #f36f20 !important;}
+.bgc3 {background-color: #eaeaea !important;}
+.bgc4 {background-color: #918f8f !important;}
+
+/* buttons */
+.btn1 {
+  display: inline-block; 
+  width: 149px; 
+  height: 55px; 
+  line-height: 55px; 
+  background-color: #f36f20;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.btn2 {
+  display: inline-block;
+  width: 260px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  background-color: #f36f20;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn3 {
+  display: inline-block;
+  width: 260px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border: 2px solid #f36f20;
+  color: #f36f20;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btn4 {
+  display: inline-block;
+  width: 149px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn1:hover, .btn2:hover {
+  color: #093a88 !important;
+}
+

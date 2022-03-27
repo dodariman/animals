@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동물자유연대</title>
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+  <!-- My css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsiveTablet.css">
+  <link rel="stylesheet" href="css/responsiveMobile.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <!-- slick -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- GSPA CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <!-- scrollmagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script> -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="index.html">동물자유연대</a>
+      </h1>
+      <div class="menu-bar">
+        <nav class="navigation">
+          <h2 class="blind">Main Menu</h2>
+          <ul class="main-menu bold">
+            <li><a href="#info">소개</a></li>
+            <li><a href="#activites">활동</a></li>
+            <li><a href="#notices">자료</a></li>
+            <li><a href="#campaigns">참여</a></li>
+            <li><a href="#supports">후원</a></li>
+            <li><a href="#oncenter">온센터</a></li>
+          </ul>
+          <!-- E: ul.main-menu -->
+          <!-- close -->
+          <a href="#" class="close"><i class="fa-solid fa-xmark"></i><span class="blind">내비게이션 종료</span></a>
+        </nav>
+        <!-- E: nav.navigation -->
+        <ul class="etc">
+          <li><a href="#" class="search"><i class="fa fa-search"></i><span class="blind">검색</span></a></li>
+          <li><a href="#" class="submenu trigger"><i class="fa-solid fa-bars"></i><span class="blind">서브메뉴</span></a></li>
+        </ul>
+        <!-- E: ul.ect -->
+      </div>
+      <!-- E: div.menu-bar -->
+    </div>
+    <!-- E: div.inner -->
+  </header>
+  <!-- E : header.header ++++++++++++++++++++++++ -->
+
+  <div class="doc-bar">
+    <ul class="doc-menu">
+      <li><a href="#"><i class="fa-solid fa-house"></i></a><span>홈</span></li>
+      <li><a href="#" class="dotsopen"><i class="fa-solid fa-heart"></i></a><span>후원하기</span></li>
+      <li><a href="#"><i class="fa-solid fa-bell"></i></a><span>알림</span></li>
+      <li><a href="#"><i class="fa-solid fa-user"></i></a><span>마이</span></li>
+    </ul>
+  </div>
+  <!-- E: doc-bar -->
+
+  <div class="dots-menu">
+    <ul class="dots">
+      <li class="dot1"><a href="#"><i class="fa-solid fa-calendar-days"></i><br><span>정기</span></a></li>
+      <li class="dot2"><a href="#"><i class="fa-solid fa-heart"></i><br><span>결연</span></a></li>
+      <li class="dot3"><a href="#" ><i class="fa-solid fa-star"></i><br><span>팬클럽</span></a></li>
+      <li class="dot4"><a href="#" ><i class="fa-solid fa-plus"></i><br><span>증액</span></a></li>
+      <li class="dot5"><a href="#" class="closedots"><i class="fa-solid fa-xmark"></i></a></li>
+    </ul>
+  </div>
+  <!-- E: doc-bar -->
+
+  <div class="visual">
+    <ul class="visual-group">
+      <li class="visual visual1">
+        <div class="visual-text vt1">
+          <h3>22마리 사육곰이<br><span class="tc5">생츄어리</span>로 갑니다!</h3>
+        </div>
+      </li> <!-- visual1 -->
+      <li class="visual visual2">
+        <div class="visual-text vt2">
+          <span class="tc6">고양이 전용 보호시설 파주 온센터</span>
+          <h3>여러분과 <span class="tc6">함께</span> 짓습니다</h3>
+        </div>
+      </li> <!-- visual2 -->
+      <li class="visual visual3">
+        <div class="visual-text vt3">
+          <h3>울진 삼척 등 산불지역,<br><span class="tc4">피해 동물 치료 지원</span></h3>
+        </div>
+      </li> <!-- visual3 -->
+    </ul>
+    <!-- E: visual-group -->
+    <div class="support-box">
+      <ul class="support-list bgc3">
+        <li class="sList1"><a href="#">정기후원</a></li>
+        <li class="sList2"><a href="#">결연후원</a></li>
+        <li class="sList3"><a href="#">팬클럽후원</a></li>
+        <li class="sList4"><a href="#">후원증액</a></li>
+        <li class="sList5 tc3"><a href="#">후원안내</a></li>
+      </ul>
+      <!-- E: support-list -->
+    </div>
+    <!-- E: support-box -->
+  </div>
+  <!-- E: div.visual  ++++++++++++++++++++++++ -->
+  <div class="container">
+    <section class="info" id="info">
+      <h2 class="blind">Info Us</h2>
+      <div class="inner">
+        <div class="info-group">
+          <section class="info-txt">
+            <p>동물자유연대는</p>
+            <h3 class="bold"><span>정부보조금 0%,</span><br>시민의 <span class="tc4">후원이 힘</span>입니다.</h3>
+            <p class="lh tc2">동물자유연대는 인간에 의해 관리되는 모든 동물들이 인도적인 대우를 받게 하고자 하며, 더 나아가 인간에 의해 이용되거나, 삶의 터전을 잃어가는 동물의 수(數)와
+              종(種)을 줄여나감으로써, 인간과 동물이 생태적 · 윤리적 조화를 이루며 살아가는 것을 목표로 합니다.</p>
+            <a href="#" class="btn1">참여하기</a>
+          </section>
+          <!-- E: info-txt -->
+          <section class="info-img">
+            <figure class="img-container">
+              <img src="images/info_1.png" alt="" class="iImg1">
+              <img src="images/info_2.png" alt="" class="iImg2">
+            </figure>
+          </section>
+          <!-- E: info-img -->
+        </div>
+        <!-- E: info-group -->
+      </div>
+      <!-- E: inner -->
+    </section>
+    <!-- E: info -->
+    <section class="activites" id="activites">
+      <h2>주요활동</h2>
+      <div class="inner">
+        <div class="activites-group">
+          <div class="activity">
+            <div class="activity1">
+              <figure class="img-container">
+                <a href=""><img src="images/activity_1.png" alt=""></a>
+              </figure>
+              <div class="act-txt">
+                <span class="tc4"><a href="">농장동물</a></span>
+                <h3><a href="">3월 3일 . 삼겹살데이!?</a></h3>
+                <p class="lh">3월 3일. 삼겹살 데이라고 불리는 날입니다. 2003년 구제역 파동으로 어려워진 양돈 농가를 살리기 위한 대책이였습니다.</p>
+              </div>
+            </div> <!-- activity1 -->
+          </div>
+          <div class="activity">
+            <div class="activity2 act-small">
+              <div class="act-txt">
+                <span class="tc4"><a href="">반려동물</a></span>
+                <h3><a href="">우크라이나 국민과 동물, 모두에게 평화를</a></h3>
+                <p class="lh">온 세계가 우크라이나를 주목하고 있습니다. 러시아가 일으킨 </p>
+              </div>
+              <figure class="img-container">
+                <a href=""><img src="images/activity_2.png" alt=""></a>
+              </figure>
+            </div> <!-- activity2 -->
+            <div class="activity3 act-small">
+              <div class="act-txt">
+                <span class="tc4"><a href="">전시·야생동물</a></span>
+                <h3><a href="#">동물자유연대 활동가들이 백화점에 나가있는 이유는?</a></h3>
+                <p class="lh">동물자유연대 활동가들이 백화점에 나가있는 이유는?</p>
+              </div>
+              <figure class="img-container">
+                <a href=""><img src="images/activity_3.png" alt=""></a>
+              </figure>
+            </div> <!-- activity3 -->
+            <div class="activity4 act-small">
+              <div class="act-txt">
+                <span class="tc4"><a href="">정책·입법</a></span>
+                <h3><a href="">동물복지정책,
+                    대선후보가 답하다.</a></h3>
+                <p class="lh">코 앞으로 다가온 20대 대선. 그 어느 때보다 치열한 접전을 펼치는</p>
+              </div>
+              <figure class="img-container">
+                <a href=""><img src="images/activity_4.png" alt=""></a>
+              </figure>
+            </div> <!-- activity4 -->
+          </div>
+        </div>
+        <!-- E: activity-group -->
+      </div>
+    </section>
+    <!-- E: activites -->
+    <section class="notices" id="notices">
+      <h2>공지사항</h2>
+      <div class="inner">
+        <div class="notice-group">
+          <section class="notice notice1">
+            <a href="">
+              <div class="notice-txt">
+                <span class="tc4">사랑방</span>
+                <h3>[제2온센터] 파주 제2온센터에 초대합니다!</h3>
+                <p class="lh">후원자님의 힘으로 짓고 있는 제2온센터 관련 행사 소식을 전해드립니다.</p>
+              </div>
+            </a>
+          </section> <!-- E: notice1 -->
+          <section class="notice notice2">
+            <a href="">
+              <div class="notice-txt">
+                <span class="tc4">보도자료</span>
+                <h3>[보도자료] 경주마 전 생애
+                  복지체계 구축을 위한 토론회</h3>
+                <p class="lh">'경주마 복지 수립'을 위해 위성곤 국회의원, 동물자유연대, 생명환경권행동 제주비건 공동</p>
+              </div>
+            </a>
+          </section> <!-- E: notice2 -->
+          <section class="notice notice3">
+            <a href="">
+              <div class="notice-txt">
+                <span class="tc4">공지사항</span>
+                <h3>2020년 기부금품 모집 사용내역 보고</h3>
+                <p class="lh">&lt;2020년 기부금품 모집 사용내역 보고&gt;</p>
+              </div>
+            </a>
+          </section> <!-- E: notice3 -->
+        </div>
+        <!-- E: notice-group -->
+      </div>
+      <!-- E: inner -->
+    </section>
+    <!-- E: notices -->
+    <section class="campaigns" id="campaigns">
+      <h2 class="blind">Campaign</h2>
+      <ul class="campaign-group img-container">
+        <li class="campaign"><a href=""><img src="images/wbanner_1.png" alt=""></a></li>
+        <li class="campaign"><a href=""><img src="images/wbanner_2.png" alt=""></a></li>
+        <li class="campaign"><a href=""><img src="images/wbanner_3.png" alt=""></a></li>
+        <li class="campaign"><a href=""><img src="images/wbanner_4.png" alt=""></a></li>
+      </ul>
+      <!-- E: campaign-group -->
+    </section>
+    <!-- E: campaigns -->
+    <section class="supports" id="supports">
+      <h2 class="blind">Support</h2>
+      <div class="inner">
+        <div class="sup-container">
+          <section class="adopt">
+            <h3 class="tc3 bold">입양하기</h3>
+            <p class="lh tc3">도움이 필요한 동물에게 보금자리를 내어줄 수 있는 기회!동물자유연대에서 입양하세요!</p>
+            <div class="sup-content">
+              <ul class="support-group img-container">
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide1_1.png" alt="">
+                  </a>
+                  <p><a href="">얼굴 절반이 녹은 채 방치되었던<span class="bold"> ‘다정이’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide1_3.png" alt="">
+                  </a>
+                  <p><a href="">가정이 아닌 보호소에 적응해가는 새끼고양이<span class="bold"> ‘갤럭시’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide1_2.png" alt="">
+                  </a>
+                  <p><a href="">세상 가장 아련한 눈빛의<span class="bold"> ‘목화’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide1_4.png" alt="">
+                  </a>
+                  <p><a href="">해맑은 애교쟁이<span class="bold"> ‘두송이’ </span></a></p>
+                </li>
+              </ul>
+              <!-- E: support-group -->
+              <a href="" class="btn2">입양·임시보호 신청</a>
+            </div>
+            <!-- E:sup-content -->
+          </section>
+          <!-- E: adopt -->
+          <section class="match">
+            <h3 class="tc3 bold">결연하기</h3>
+            <p class="lh tc3">마음으로 함께해요! 온센터 동물과 결연후원을 통해 대부모님이 되어주세요!</p>
+            <div class="sup-content">
+              <ul class="support-group img-container">
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide2_1.png" alt="">
+                  </a>
+                  <p><a href="">하반신이 마비되었지만 누구보다 씩씩한<span class="bold"> ‘미니’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide2_3.png" alt="">
+                  </a>
+                  <p><a href="">어둠뿐인 세상에서 병마를 이겨낸<span class="bold"> ‘버거’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide2_2.png" alt="">
+                  </a>
+                  <p><a href="">물음표를 품은 고양이<span class="bold"> ‘버찌’ </span></a></p>
+                </li>
+                <li class="support">
+                  <a href="">
+                    <img src="images/slide/slide2_4.png" alt="">
+                  </a>
+                  <p><a href="">굶주림과 죽음뿐이던 곳에서 새끼를 지켜낸<span class="bold"> ‘선샤인’ </span></a></p>
+                </li>
+              </ul>
+              <!-- E: support-group -->
+              <a href="" class="btn2">결연후원 신청</a>
+            </div>
+            <!-- E:sup-content -->
+          </section>
+          <!-- E: match -->
+        </div>
+        <!-- E: sup-container -->
+      </div>
+      <!-- E: inner -->
+    </section>
+    <!-- E: supports -->
+    <section class="oncenter" id="oncenter">
+      <h2>온센터 소식</h2>
+      <div class="inner">
+        <div class="oncenter-group">
+          <section class="center center1">
+            <figure class="img-container">
+              <a href=""><img src="images/center_1.png" alt=""></a>
+            </figure>
+            <div class="center-txt">
+              <h3 class="bold"><a href="">견사 문 구멍은 재순이의 외로움 구멍</a></h3>
+              <p class="lh tc2">얼굴을 내밀 정도로 벌어진 구멍. 재순이가
+                얼마나 사람 곁에 있고 싶어하는지 알기에
+                벌어진 문의 구멍은 재순이의 외로움의 출구입니다.</p>
+            </div> 
+          </section> <!-- E: center1 -->
+          <section class="center center2">
+            <figure class="img-container">
+              <a href=""><img src="images/center_2.png" alt=""></a>
+            </figure>
+            <div class="center-txt">
+              <h3 class="bold"><a href="">집 짓는 일과 살리는 일의 닮음</a></h3>
+              <p class="lh tc2">동물자유연대는 고양이를 위한 보호소,
+                제2온센터를 짓고 있습니다. 제2온센터의
+                시작은 위기동물을 더욱 적극적으로 구조하는데 있습니다.</p>
+            </div> 
+          </section> <!-- E: center2 -->
+          <section class="center center3">
+            <figure class="img-container">
+              <a href=""><img src="images/center_3.png" alt=""></a>
+            </figure>
+            <div class="center-txt">
+              <h3 class="bold"><a href="">공격성 행동 분석 참가 모집</a></h3>
+              <p class="lh tc2"> 
+                반려견이 누군가를 공격한 경험이 있는
+                가족이라면, 행동분석에 참여하여 나은세상을 만드는데 함께해주세요! </p>
+            </div> 
+          </section> <!-- E: center3 -->
+          <section class="center center4">
+            <figure class="img-container">
+              <a href=""><img src="images/center_4.png" alt=""></a>
+            </figure>
+            <div class="center-txt">
+              <h3 class="bold"><a href="">캠페인을 함께할 입양 가족을 모집합니다!</a></h3>
+              <p class="lh tc2">입양 캠페인 &lt;BE HAPPY&gt;는 학대, 방치, 유기
+                등으로 구조된 동물에 대한 관심을 환기하고 
+                입양을 독려하기 위한 캠페인입니다.</p>
+            </div> 
+          </section> <!-- E: center4 -->
+        </div>
+        <a href="" class="btn3 centerbtn">더 보기</a>
+        <!-- E: oncenter-group -->
+      </div>
+      <!-- E: inner -->
+    </section>
+    <!-- E: oncenter -->
+    <section class="bottombanner">
+      <h2 class="blind">하단배너</h2>
+      <div class="banner banner1">
+        <figure class="img-container">
+          <a href="#"><img src="images/fbanner_1_text.png" alt=""></a>
+        </figure>
+      </div>
+      <!-- E: banner1 -->
+      <div class="banner banner2">
+        <figure class="img-container">
+          <a href="#"><img src="images/fbanner_2_text.png" alt=""></a>
+        </figure>
+      </div>
+      <!-- E: banner2 -->
+    </section>
+    <!-- E: bottombanner -->
+  </div>
+  <!-- E: div.container  ++++++++++++++++++++++++ -->
+
+  <footer class="footer bgc3">
+    <div class="inner">
+      <div class="footer-content">
+        <div class="address-sns">
+          <div class="address">
+            <p class="lh">
+              <span>주소 : 서울특별시 성동구 행당로 17길 1-77 (우04714)</span>
+              <span>고유번호 : 206-82-06985</span>
+              <span>대표 : 조희경</span>
+              <span>개인정보관리담당자 : 손혜원</span>
+            </p>
+            <p class="lh">
+              <span>전화 : 02-2292-6337</span>
+              <span>팩스 : 02-2292-6339 </span>
+              <span>이메일 : info@animals.or.kr </span>
+              <a href="#">가입약관</a>
+              <a href="#">개인정보처리방침</a>
+            </p>
+            <p class="lh">Copyright &copy; 동물자유연대. All right reserved.</p>
+          </div>
+          <!-- E: address -->
+          <div class="sns">
+            <ul class="sns-list">
+              <li class="sns"><a href="#"><img src="images/sns/blog.png" alt=""></a></li>
+              <li class="sns"><a href="#"><img src="images/sns/facebook.png" alt=""></a></li>
+              <li class="sns"><a href="#"><img src="images/sns/instagram.png" alt=""></a></li>
+              <li class="sns"><a href="#"><img src="images/sns/kakao.png" alt=""></a></li>
+              <li class="sns"><a href="#"><img src="images/sns/twitter.png" alt=""></a></li>
+              <li class="sns"><a href="#"><img src="images/sns/youtube.png" alt=""></a></li>
+            </ul>
+          </div>
+          <!-- E: sns -->
+        </div>
+        <!-- E: policy-sns  -->
+      </div>
+      <!-- E: footer-content -->
+    </div>
+    <!-- E: div.inner -->
+  </footer>
+  <!-- E: footer ++++++++++++++++++++++++  -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

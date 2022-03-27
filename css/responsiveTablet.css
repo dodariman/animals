@@ -1,0 +1,172 @@
+@charset "UTF_8";
+
+/* 태블릿 모드 */
+@media all and (max-width : 1024px) {
+  .inner {
+    padding: 0 25px;
+  }
+
+  .support-box {
+    display: none;
+  }
+
+  /* header -------------------- */
+  .logo a {
+    background: url("../images/logo2.png") no-repeat left center;
+    width: 64px;
+    height: 55px;
+    background-size: 80%;
+  }
+
+  .main-menu li {
+    margin-left: 60px;
+  }
+
+  .etc {
+    margin-left: 70px;
+  }
+
+  .etc li {
+    margin-left: 40px;
+  }
+
+  /* visual---------------------- */
+  .visual {
+    background-size: contain;
+    height: 50vmax;
+  }
+
+  .visual-text {
+    padding-left: 170px;
+    font-size: 4.5rem;
+  }
+
+  .vt1 {
+    padding-top: 140px;
+  }
+
+  .vt2 {
+    padding-top: 160px;
+  }
+
+  .vt2>span {
+    font-size: 2rem;
+  }
+
+  .vt3 {
+    padding-left: 140px;
+    padding-top: 150px;
+    font-size: 3rem;
+  }
+
+  .vt3 span {
+    font-size: 4.5rem;
+    }
+
+  /* info ----------------------------------------------- */
+  .info {
+    margin-top: 50px;
+  }
+
+  .info-txt h3 {
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+  }
+
+  .info-txt h3 span:first-child {
+    font-size: 3rem;
+  }
+
+  .info-txt a {
+    margin-top: 50px;
+  }
+
+  .info-img {
+    width: 50%;
+  }
+
+  .iImg2 {
+    left: 200px;
+  }
+
+  /* activites-------------------------------------- */
+  .activity1 img {
+    width: 100%;
+  }
+
+  .act-small {
+    margin-left: 20px;
+    padding: 23px 0 23px 0;
+    align-items: center;
+  }
+
+  .act-txt span {
+    font-size: 1.4rem;
+  }
+
+  .act-txt h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.1;
+  }
+
+  .act-small .act-txt h3 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .act-txt p {
+    font-size: 1.4rem;
+  }
+
+  /* notices-------------------------------------------- */
+  .notice-txt {
+    height: 216px;
+    padding: 90px 20px 0 20px;
+  }
+
+  .notice {
+    background-size: 100%;
+  }
+
+  .notice-txt h3 {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .notice-txt p,
+  .notice-txt span {
+    font-size: 1.5rem;
+  }
+
+  /* center------------------------------------ */
+  .center img {
+    width: 100%;
+  }
+
+  .center {
+    width: 230px;
+    font-size: 1.5rem;
+  }
+
+  .center-txt h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+  }
+
+  /* footer -------------------------------------- */
+  .footer-content .address-sns {
+    flex-direction: column-reverse;
+  }
+
+  .address {
+    padding-top: 20px;
+  }
+  
+  .sns-list {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #918f8f;
+  }
+}
